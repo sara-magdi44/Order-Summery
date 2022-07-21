@@ -1,0 +1,95 @@
+body{
+    background : linear-gradient( rgb(224 232 255 / 80%) ,rgb(224 232 255 / 80%)) ,  url(../images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin-top:60px;
+    width:450px;
+    height: 670px;
+    border-radius: 10px;
+    background-color: #ffff;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    padding: 0px 15px;
+}
+img{
+    border-radius: 10px 10px 0px 0px;
+}
+.card h1{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin: 20px 0px 10px 0px;
+}
+.card p {
+    padding: 0px 57px 10px;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+/* second card Annual Plan */
+
+.sec-card{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: 0px 30px;
+
+}
+.sec-card img{
+    padding: 20px 20px;
+} 
+.sec-card h4{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.sec-card h4::after{
+    content: "$59.99/year";
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    position: relative;
+    top: 25px;
+    left: -95px;
+}
+.sec-card a{
+    cursor: pointer;
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+    position: relative;
+    top: 32px;
+    text-decoration: underline;
+} 
+.sec-card a:hover{
+    text-decoration: none;
+    color: #7C61D6;
+
+}
+#btn1,#btn2{
+    font-weight: 800;
+    margin: 25px 30px;
+    border: none;
+    cursor: pointer;
+}
+#btn1{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    padding: 0px 100px;
+    height: 50px;
+    color: #ffff;
+}
+#btn1:hover{
+    background-color: #7C61D6;
+    box-shadow: 0px 5px 5px #a188f28f;
+}
+#btn2{
+    background-color:transparent;
+    color: hsl(224, 23%, 55%);
+}
+#btn2:hover{
+    color: hsl(223, 47%, 23%);
+}
+
